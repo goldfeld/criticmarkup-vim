@@ -1,0 +1,2 @@
+# CriticMarkup for Vim
+

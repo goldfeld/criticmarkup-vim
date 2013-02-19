@@ -75,7 +75,7 @@ syn region markdownAutomaticLink matchgroup=markdownUrlDelimiter start="<\%(\w\+
 syn region CMAdd start="\S\@<={++\|{++" end="++}\|++}\S\@=" keepend contains=markdownLineStart
 syn region CMDelete start="\S\@<={--\|{--" end="--}\|--}\S\@=" keepend contains=markdownLineStart
 syn region CMSubstitute start="\S\@<={\~\~\|{\~\~" end="\~\~}\|\~\~}\S\@=" keepend contains=markdownLineStart
-syn region CMHighlight start="\S\@<={{\|{{" end="}}\|}}\S\@=" keepend contains=markdownLineStart
+syn region CMHighlight start="\S\@<={==\|{==" end="==}\|==}\S\@=" keepend contains=markdownLineStart
 syn region CMComment start="\S\@<={>>\|{>>" end="<<}\|<<}\S\@=" keepend contains=markdownLineStart
 
 syn region markdownItalic start="\S\@<=\*\|\*\S\@=" end="\S\@<=\*\|\*\S\@=" keepend contains=markdownLineStart
